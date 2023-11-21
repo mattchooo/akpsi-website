@@ -1,0 +1,47 @@
+.add-announcement-page {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+}
+
+.add-announcement-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.add-announcement-form label {
+    margin-bottom: 10px;
+}
+
+.add-announcement-form input,
+.add-announcement-form textarea {
+    margin-bottom: 10px;
+    width: 750%;
+    font-family: sans-serif, 'PT Sans';
+}
+
+.add-announcement-form textarea {
+    min-height: 250px;
+    white-space: pre-wrap;
+}
+
+.announcement-button {
+    outline: none;
+    background: #d3b80a;
+    color: #fff;
+    margin-top: 20px;
+    align-self: center !important; /* Center the button horizontally within the form */
+}
+
+.announcement-button:hover {
+    background: #8b7c15;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}

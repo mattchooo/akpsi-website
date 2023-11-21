@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.contact,
+.aboutus,
+.rush,
+.brothers,
+.login {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.contact {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.login-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.aboutus {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.rush {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-position: center;
+    color: #242424;
+    height: 90vh;
+    font-size: 100px;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.reset-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.important {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 40px;
+    background-image: linear-gradient(45deg, #f9f9f9 25%, #e8e8e8 50%, #f9f9f9 75%);
+    background-size: 200% 200%;
+    animation: gradientAnimation 1.5s infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.login {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.brothers {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 100px;
+}

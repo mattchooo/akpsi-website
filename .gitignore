@@ -1,0 +1,12 @@
+# Ignore node_modules in the root
+node_modules/
+
+# Ignore node_modules in the client folder
+client/node_modules/
+
+# Ignore node_modules in the server folder
+server/node_modules/
+
+
+# Ignore the appController.js file in the server folder because of password/user info
+server/appController.js

@@ -1,0 +1,246 @@
+.navbar {
+    background: linear-gradient(90deg, rgb(0, 0, 132) 0%, rgb(4, 6, 132) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.login-navbar {
+    padding-right: 16.8px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 90%;
+    margin: 0 auto;
+    /* Add this line to center the container */
+}
+
+.navbar-logo {
+    color: #d3b80a;
+    justify-self: start;
+    margin-left: 20px;
+    margin-top: -10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    height: 80px;
+}
+
+.nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+}
+
+.nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.fa-chevron-down {
+    font-size: 0.8rem;
+    margin-left: 8px;
+}
+
+.fa-chevron-left {
+    font-size: 0.8rem;
+    margin-left: 8px;
+}
+
+
+.nav-auth-item {
+    position: relative;
+    display: flex;
+    /* Add this line to make the item flex-container */
+    align-items: center;
+    /* Add this line to vertically center the content */
+}
+
+.dropdown-button {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    /* Add this line to set the text color to white */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    display: flex;
+    /* Add this line to make the button flex-item */
+    align-items: center;
+    /* Add this line to vertically center the text */
+}
+
+.dropdown {
+    position: absolute;
+    top: 200%;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 140%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+@media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: #242222;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        background-color: #fff;
+        color: #242424;
+        border-radius: 0;
+    }
+
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 25%);
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: #fff;
+        padding: 14px 20px;
+        border: 1px solid #fff;
+        transition: all 0.3s ease-out;
+    }
+
+    .nav-links-mobile:hover {
+        background: #fff;
+        color: #242424;
+        transition: 250ms;
+    }
+
+    .nav-auth-item {
+        display: block;
+        margin-bottom: 10px;
+        /* Add some spacing between nav items */
+    }
+}

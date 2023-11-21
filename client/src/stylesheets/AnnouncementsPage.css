@@ -1,0 +1,25 @@
+.announcements-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.add-announcement-button {
+    outline: none;
+    background: #fff;
+    color: #242424;
+    margin-top: 5px;
+    align-self: center;
+    margin-top: 125px;
+    margin-left: 1050px;
+    padding: 8px 16px;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(58, 61, 68, 0.17);
+}
+
+.add-announcement-button:hover {
+    background: #c7c6c4;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
